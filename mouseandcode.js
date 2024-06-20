@@ -1,4 +1,4 @@
-//June 18 of 2024
+//June 19 of 2024
 //Mario Acosta Automation process 
 
 const puppeteer = require('puppeteer');
