@@ -188,33 +188,6 @@ const { performRightClickOptionByTitle } = require('./components/performRightCli
         console.log("KKKKKKKKKKKK")
 
 
-        //         // //RENAME
-        //         // console.log('Waited for 5 seconds.');
-        //         // console.log('WE START THE RENAME PHASE');
-        //         // await new Promise(resolve => setTimeout(resolve, 5000)); // Wait for 5
-        //         // //ALL THE CODE TOGETHERx
-        //         // const desiredIndex3 = 7; // Or any other desired index
-        //         // await clickButtonByIndex(newPage, desiredIndex3);
-        //         // //Right click option 
-        //         // const selector3 = 'div[data-id="yyHiDTMWflCzpmJN"]'; // Replace with the appropriate selector
-        //         // const title3 = 'Sketch 1'; // Replace with the desired title
-        //         // const editOptions4 = await performRightClickOptionByTitle(newPage, selector3, title3);
-        //         // console.log(editOptions4);
-        //         // //NEED TO ADD THE EDIT FUNCTION HERE, LIKE pasteIntoSketchFunction OR copySketchFunction
-        //         // renameIntoSketchFunction(editOptions4, newPage);
-        //         // await new Promise(resolve => setTimeout(resolve, 40000)); // Wait for 10 seconds
-        //         // console.log('Waited for 40 seconds.'); console.log('AFTER THE CODE RUNS.');
-
-
-
-
-        //         //WE ARE CHECKING ENDING OF EDIT OPTIONS
-        //         console.log('Waited for 10 seconds.');
-        //         await new Promise(resolve => setTimeout(resolve, 10000)); // Wait for 5
-        //         console.log('Typing "Third Sketch"...');
-        //         await newPage.keyboard.type('Third Sketch');
-        //         await new Promise(resolve => setTimeout(resolve, 5000));
-
 
 
         ////////////////////
@@ -400,16 +373,6 @@ const { performRightClickOptionByTitle } = require('./components/performRightCli
         ////////////////////
         await waitForEnter();
         ////////////////////
-
-
-
-
-
-
-
-
-
-
 
 
 
